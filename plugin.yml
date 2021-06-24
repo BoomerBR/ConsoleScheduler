@@ -1,0 +1,16 @@
+name: ConsoleScheduler
+main: com.RkCraft.ConsoleScheduler.ConsoleScheduler
+version: 1.4.9
+author: BoomerBR
+authors: [BoomerBR]
+
+commands:
+  csc:
+    aliases: [cscheduler]
+    description: ConsoleScheduler Commands
+    usage: /csc
+    
+permissions:
+   ConsoleScheduler.use:
+     description: Use the plugin.
+     default: op

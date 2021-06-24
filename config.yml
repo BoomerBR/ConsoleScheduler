@@ -1,0 +1,8 @@
+CheckUpdates: true
+InitialDelay: 5
+CommandSchedule:
+  Command1:
+    After: 5
+    Repeat: true
+    Interval: 30
+    Command: say This is an example of a repeating command! It repeats every 30 seconds
